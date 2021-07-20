@@ -9,14 +9,15 @@
 </head>
 <body>
     <div id = "weather">
+        <span class="badge badge-light"></span>
+        <span class="badge badge-dark"></span>
+    </div>
+    <h2 id="clock" class="display-1">00:00:00</h2>
+    <div id="quote" class="lead">
         <span></span>
         <span></span>
     </div>
-    <h2 id="clock">00:00:00</h2>
-    <div id="quote">
-        <span></span>
-        <span></span>
-    </div>
+    <div id= "world-form">
     <div id="login-space">
     <form id="login-form" class="hidden">
         <input required maxlength="15" type="text" placeholder="당신의 이름은?"/>
@@ -30,6 +31,7 @@
     </form>
     <ul id="todo-list"></ul>
     </div>
+</div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>

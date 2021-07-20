@@ -14,12 +14,11 @@ function loginSubmit(event) {
 }
 
 function paintGreetings(username) {
-  greeting.innerText = `Hello ${username}`;
+  greeting.innerText = `반갑습니다. ${username}님`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
 const saveUserName = localStorage.getItem(USERNAME_KEY);
-
 if (saveUserName === null) {
   loginForm.classList.remove(HIDDEN_CLASSNAME);
   loginForm.addEventListener("submit", loginSubmit);

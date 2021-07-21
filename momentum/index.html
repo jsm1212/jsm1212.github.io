@@ -12,24 +12,24 @@
         <span class="badge badge-light"></span>
         <span class="badge badge-dark"></span>
     </div>
-    <h2 id="clock" class="display-1">00:00:00</h2>
-    <div id="quote" class="lead">
+    <h2 id="clock" class="display-1 table-active">00:00:00</h2>
+    <div id="quote" class="lead table-active">
         <span></span>
         <span></span>
     </div>
     <div id= "world-form">
     <div id="login-space">
     <form id="login-form" class="hidden">
-        <input required maxlength="15" type="text" placeholder="당신의 이름은?"/>
-        <input type="submit" value="확인"/>
+        <input class="table-active" required maxlength="15" type="text" placeholder="당신의 이름은?" />
+        <input type="submit" value="확인" hidden/>
     </form>
     <h1 id="greeting" class="hidden"></h1>
     </div>
     <div id="todo-space">
     <form id="todo-form">
-        <input type="text" placeholder="나의 할일" required/>
+        <input class="table-active" type="text" placeholder="나의 할일" required/>
     </form>
-    <ul id="todo-list"></ul>
+    <ul id="todo-list" class="table-active"></ul>
     </div>
 </div>
     <script src="js/greetings.js"></script>

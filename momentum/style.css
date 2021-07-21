@@ -37,7 +37,6 @@ html {
 #greeting {
     display: block;
     text-align: center;
-    animation: 2s ease;
 }
 
 #todo-space {
@@ -52,4 +51,10 @@ ul {
 
 #world-form {
     margin-top: 400px;
+}
+
+input:hover {
+    background-color: black;
+    transition: 2s ease;
+    color: cornsilk;
 }

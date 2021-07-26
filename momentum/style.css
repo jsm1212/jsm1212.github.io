@@ -25,6 +25,7 @@ html {
 
 #quote {
     text-align: center;
+    color: aliceblue;
 }
 
 
@@ -37,6 +38,7 @@ html {
 #greeting {
     display: block;
     text-align: center;
+    color: cornsilk;
 }
 
 #todo-space {
@@ -47,14 +49,18 @@ html {
 
 ul {
     list-style-type: none;
+    color: aliceblue;
 }
 
 #world-form {
     margin-top: 400px;
 }
 
+input {
+    color: cornsilk;
+}
+
 input:hover {
     background-color: black;
     transition: 2s ease;
-    color: cornsilk;
 }
